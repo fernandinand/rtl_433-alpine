@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER Fernando Ribeiro <fernando.ribeiro@geocrafter.eu>
 
-ARG RTL_VERSION
+ARG RTL_VERSION=20.11
 
 RUN apk add --no-cache gcc libc-dev make cmake rtl-sdr librtlsdr-dev curl
 
